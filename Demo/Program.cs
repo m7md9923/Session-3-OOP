@@ -1,5 +1,6 @@
 ﻿namespace Demo;
 using Demo.Overloading;
+using Demo.Overriding;
 class Program
 {
     #region Method Overloading
@@ -144,6 +145,23 @@ class Program
         // UserViewModel userViewModel = (UserViewModel)user;
         // Console.WriteLine(userViewModel);
 
+        #endregion
+        
+        #region Overriding 
+        
+        // TypeA a = new TypeA(10);
+        // a.A = 10;
+        // Console.WriteLine(a);
+        // a.Fun01();
+        // a.Fun02();
+        //
+        // TypeB b = new TypeB(10, 20);
+        // b.A = 1;
+        // b.B = 2;
+        // Console.WriteLine(b);
+        // b.Fun01();
+        // b.Fun02();
+        
         #endregion
 
         #endregion
