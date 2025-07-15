@@ -164,6 +164,29 @@ class Program
         
         #endregion
 
+        #region Polymorphism-Binding [Ex1]
+        
+        // TypeA a = new TypeA(10);
+        // a = new TypeB(10, 20);  // ref from parent refer to an instance from child : binding 
+        // a.Fun01();
+        // // a.B = 20;  // invalid
+        // a.Fun02();
+        //
+        // // virtual --> override : call method based on  object type [dynamic binding [late binding]]
+        // // run time binding [CLR]
+        // // override - Edit inherited behavior --> Override 
+        //
+        //
+        // // new() --> call method based on ref type [static binding [early binding]]
+        // // Override --> edit inherited behavior --> override 
+        // // override - hide - masking --> new()
+        //
+        // TypeA b = new TypeB(10 , 20); // binding
+        // TypeB c = (TypeB)b; 
+        //
+
+        #endregion
+
         #endregion
     }
 }

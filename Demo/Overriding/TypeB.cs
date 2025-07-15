@@ -14,7 +14,7 @@ internal class TypeB : TypeA
         return base.ToString() + $" , B : {B}";
     }
 
-    public override void Fun01()
+    public new void Fun01()
     {
         Console.WriteLine($"I am derived - [TypeB]");
     }
