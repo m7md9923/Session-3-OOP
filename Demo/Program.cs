@@ -134,6 +134,18 @@ class Program
 
         #endregion
         
+        #region User-Defined Casting op
+
+        // User user = new User()
+        // {
+        //     Id = 10, Email = "mohamed@gmail.com", FullName = "MohamedNasr", Password = "P@ssw0rd",
+        //     SecurityStamp = Guid.NewGuid()
+        // };
+        // UserViewModel userViewModel = (UserViewModel)user;
+        // Console.WriteLine(userViewModel);
+
+        #endregion
+
         #endregion
     }
 }
