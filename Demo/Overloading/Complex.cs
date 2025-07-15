@@ -94,6 +94,19 @@ public class Complex
     //     return !(c1 == c2);
     // }
     #endregion
+
+    #region Casting Operator Overloading
+
+    // public static explicit operator int(Complex c1)
+    // {
+    //     return c1.Real;
+    // }
+    //
+    // public static implicit operator string(Complex c1)
+    // {
+    //     return c1.ToString();
+    // }
     
+    #endregion
     
 }

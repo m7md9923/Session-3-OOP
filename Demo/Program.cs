@@ -117,6 +117,23 @@ class Program
         
         #endregion
         
+        #region Operator Overloading [Casting Operator]
+        
+        // int x = 10;
+        // float y = x;  // implicit casting 
+        // int z = (int)y;  // explicit casting [unsafe]
+        //
+        // Complex c1 = new Complex() {Real = 4 , Img = 5};
+        // int c = (int)c1;  // use casting op
+        // Console.WriteLine(c);
+        //
+        // string str = (string)c1; // expicit better than implicit
+        //
+        //
+        
+
+        #endregion
+        
         #endregion
     }
 }
