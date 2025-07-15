@@ -67,6 +67,31 @@ class Program
         // Console.WriteLine(SumNumbers(a ,b , c));
         #endregion
         
+        #region Operator Overloading [Binary Operator]
+
+        // int x = 10, y = 20;
+        // Console.WriteLine(x+y);
+        // Complex c1 = new Complex();
+        // // 1] allocate 8 bytes in heap
+        // // 2] inti with the default val 
+        // // 3] call user defined ctor [if exist]
+        // // 4] assign address of instance to the ref in the stack 
+        //
+        // c1.Real = 4;
+        // c1.Img = 5;
+        // Complex c2 = new Complex() {Real = 6 , Img = 7};
+        // Complex? c3 = default;
+        // c3 = c1 + c2;   // op overloading +
+        // Console.WriteLine(c3);
+        // c3 = c1 - c2;
+        // Console.WriteLine(c3);
+        // // c3 -= c1;  // valid 
+        // // when u debug in op overloading --> u have to put break point on method
+        
+
+        #endregion
+        
+        
         #endregion
     }
 }
