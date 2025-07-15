@@ -104,7 +104,19 @@ class Program
 
         #endregion
         
-
+        #region Operator Overloading [Relational Operator]
+        
+        // Complex c1 = new Complex() {Real = 4 , Img = 5};
+        // Complex c2 = new Complex() {Real = 6 , Img = 7};
+        // if(c1 > c2) 
+        //     Console.WriteLine("c1 is greater than c2");
+        // else if(c1 < c2)
+        //     Console.WriteLine("c1 is less than c2");
+        // else if(c1 == c2)
+        //     Console.WriteLine("c1 is equal to c2");
+        
+        #endregion
+        
         #endregion
     }
 }

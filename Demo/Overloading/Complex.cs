@@ -67,6 +67,33 @@ public class Complex
     // }
     
     #endregion
+
+    #region Relational Operators Overloading
+
+    // public static bool operator >(Complex c1, Complex c2)
+    // {
+    //     if(c1.Real > c2.Real) return true;
+    //     if(c1.Real == c2.Real && c1.Img > c2.Img) return true;
+    //     return false;
+    // }
+    //
+    // public static bool operator <(Complex c1, Complex c2)
+    // {
+    //     if(c1.Real < c2.Real) return true;
+    //     if(c1.Real == c2.Real && c1.Img < c2.Img) return true;
+    //     return false;
+    // }
+    //
+    // public static bool operator ==(Complex c1, Complex c2)
+    // {
+    //     return c1.Real == c2.Real && c1.Img == c2.Img;
+    // }
+    //
+    // public static bool operator !=(Complex c1, Complex c2)
+    // {
+    //     return !(c1 == c2);
+    // }
+    #endregion
     
     
 }
