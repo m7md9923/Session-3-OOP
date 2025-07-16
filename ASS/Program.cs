@@ -109,6 +109,21 @@ namespace ASS
 
             #endregion
             
+            #region part 02 {5}
+
+            //Book book = new Book("C# Programming", "John Doe", "1234567890");
+            //book.DisplayInfo();
+            //EBook eBook = new EBook("C# Programming E-Book", "Jane Doe", "0987654321", 2.5);
+            //eBook.DisplayInfo();
+            //PrintedBook printedBook = new PrintedBook("C# Programming Printed", "John Smith", "1122334455", 300);
+            //printedBook.DisplayInfo();
+
+            // use base class type to enable polymorphism 
+            // inheritance --> remove duplicated code
+            //  --> make code easier to maintain
+
+            #endregion
+            
             #endregion
         }
         
