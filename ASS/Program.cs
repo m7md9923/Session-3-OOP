@@ -29,6 +29,17 @@ namespace ASS
 
             #endregion
             
+            #region q3
+
+            //Complex c1 = new Complex() { Real = 1, Img = 2 };
+            //Complex c2 = new Complex() { Real = 3, Img = 4 };
+            //Console.WriteLine($"c1: {c1.Real} + {c1.Img}i");
+            //Console.WriteLine($"c2: {c2.Real} + {c2.Img}i");
+            //Complex? c3 = c1 + c2;
+            //Console.WriteLine($"c3: {c3?.Real} + {c3?.Img}i");
+
+            #endregion
+            
             #endregion
             #endregion
         }
