@@ -49,6 +49,20 @@ namespace ASS
 
             #endregion
             
+            #region q5
+
+            //BaseClass baseClass = new BaseClass();
+            //baseClass.display();
+            //DerivedClass1 derivedClass1 = new DerivedClass1();
+            //derivedClass1.display();
+            //DerivedClass2 derivedClass2 = new DerivedClass2();
+            //derivedClass2.display();
+
+            //new --> early binding [static] is hiding or masking that hides the base method as a seperated method,
+            // override --> late binding [dynamic] is dynamic binding and it overrides the base method
+
+            #endregion
+            
             #endregion
             #endregion
         }
