@@ -40,6 +40,15 @@ namespace ASS
 
             #endregion
             
+            #region q4
+
+            //Employee employee = new Employee();
+            //employee.Display();
+            //Manager manager = new Manager();
+            //manager.Display();
+
+            #endregion
+            
             #endregion
             #endregion
         }
