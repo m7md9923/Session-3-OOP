@@ -18,6 +18,16 @@ namespace ASS
 
             #endregion
             
+            #region q2
+
+            //Rectangle rectangle = new Rectangle();
+            //Console.WriteLine($"Height: {rectangle.Height}, Width: {rectangle.Width}");
+            //rectangle = new Rectangle(5, 10);
+            //Console.WriteLine($"Height: {rectangle.Height}, Width: {rectangle.Width}");
+            //rectangle = new Rectangle(7);
+            //Console.WriteLine($"Height: {rectangle.Height}, Width: {rectangle.Width}");
+
+            #endregion
             
             #endregion
             #endregion
